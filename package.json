@@ -1,0 +1,23 @@
+{
+  "name": "gizmohub",
+  "version": "1.0.0",
+  "description": "GizmoHub - Professional e-commerce platform for phones and accessories",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "ecommerce",
+    "phones",
+    "accessories",
+    "shopping",
+    "static-site"
+  ],
+  "author": "GizmoHub",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

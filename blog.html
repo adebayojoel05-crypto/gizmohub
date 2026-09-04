@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog | GizmoHub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-mobile-alt"></i></span>
+                <span class="logo-text">GizmoHub</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="categories.html" class="nav-link">Categories</a>
+                <a href="new-arrivals.html" class="nav-link">New Arrivals</a>
+                <a href="top-deals.html" class="nav-link">Top Deals</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" data-search-trigger aria-label="Search"><i class="fas fa-search"></i></button>
+                <button class="icon-btn" data-auth-trigger aria-label="Account"><i class="far fa-user"></i></button>
+                <button class="icon-btn cart-icon" aria-label="Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge">0</span>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="page-header-tag">Tech Insights</span>
+            <h1>Tech Blog</h1>
+            <p>Latest news, reviews, guides, and insights from the world of technology</p>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="section">
+        <div class="container">
+            <a href="#" class="featured-post">
+                <div class="featured-post-image">
+                    <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=1200&q=80" alt="Featured Post">
+                    <span class="featured-post-badge">Featured</span>
+                </div>
+                <div class="featured-post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Reviews</span>
+                        <span class="post-date"><i class="far fa-calendar"></i> Jan 20, 2024</span>
+                        <span class="post-read"><i class="far fa-clock"></i> 8 min read</span>
+                    </div>
+                    <h2>iPhone 17 Pro Max: The Complete Review After 30 Days</h2>
+                    <p>After a month with Apple's latest flagship, we share our comprehensive thoughts on the A19 Pro chip, camera improvements, and whether the upgrade is worth it.</p>
+                    <div class="post-author">
+                        <div class="author-avatar">MK</div>
+                        <div>
+                            <strong>Michael Kim</strong>
+                            <span>Senior Tech Editor</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80" alt="Headphones">
+                        <span class="blog-category">Guides</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> Jan 18, 2024</span>
+                            <span class="post-read">6 min read</span>
+                        </div>
+                        <h3>Best Noise-Canceling Headphones 2024</h3>
+                        <p>Our comprehensive guide to finding the perfect ANC headphones for your budget.</p>
+                        <div class="blog-footer">
+                            <div class="post-author"><div class="author-avatar author-sm">SK</div><span>Sarah K.</span></div>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80" alt="Smart Watch">
+                        <span class="blog-category">Reviews</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> Jan 15, 2024</span>
+                            <span class="post-read">5 min read</span>
+                        </div>
+                        <h3>Apple Watch vs Samsung Galaxy Watch</h3>
+                        <p>We put the two flagship smartwatches head-to-head in our comprehensive comparison.</p>
+                        <div class="blog-footer">
+                            <div class="post-author"><div class="author-avatar author-sm">JD</div><span>James D.</span></div>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&q=80" alt="Drone">
+                        <span class="blog-category">Tips</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> Jan 12, 2024</span>
+                            <span class="post-read">4 min read</span>
+                        </div>
+                        <h3>Drone Photography 101: Getting Started</h3>
+                        <p>Everything you need to know to start capturing stunning aerial photographs.</p>
+                        <div class="blog-footer">
+                            <div class="post-author"><div class="author-avatar author-sm">LM</div><span>Lisa M.</span></div>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" alt="Charger">
+                        <span class="blog-category">Guides</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> Jan 10, 2024</span>
+                            <span class="post-read">7 min read</span>
+                        </div>
+                        <h3>Fast Charging Explained: USB-C PD & More</h3>
+                        <p>Understanding the different fast charging standards and how to use them safely.</p>
+                        <div class="blog-footer">
+                            <div class="post-author"><div class="author-avatar author-sm">RK</div><span>Raj K.</span></div>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&q=80" alt="Samsung">
+                        <span class="blog-category">News</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> Jan 8, 2024</span>
+                            <span class="post-read">3 min read</span>
+                        </div>
+                        <h3>Samsung Galaxy S26 Ultra: First Impressions</h3>
+                        <p>Our initial thoughts on Samsung's latest flagship featuring enhanced Galaxy AI.</p>
+                        <div class="blog-footer">
+                            <div class="post-author"><div class="author-avatar author-sm">MK</div><span>Michael K.</span></div>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" alt="Workspace">
+                        <span class="blog-category">Tips</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> Jan 5, 2024</span>
+                            <span class="post-read">5 min read</span>
+                        </div>
+                        <h3>Build Your Perfect Home Office</h3>
+                        <p>From monitors to webcams, our top picks for creating the ultimate workspace.</p>
+                        <div class="blog-footer">
+                            <div class="post-author"><div class="author-avatar author-sm">EJ</div><span>Emily J.</span></div>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn">Next <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-bg">
+            <div class="newsletter-shape shape-1"></div>
+            <div class="newsletter-shape shape-2"></div>
+        </div>
+        <div class="container newsletter-inner">
+            <div class="newsletter-icon"><i class="fas fa-paper-plane"></i></div>
+            <div class="newsletter-content">
+                <h2>Stay in the Loop</h2>
+                <p>Subscribe to get exclusive deals, new arrivals, and tech tips delivered to your inbox.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe <i class="fas fa-arrow-right"></i></button>
+            </form>
+            <p class="newsletter-note">Join 50,000+ tech enthusiasts. Unsubscribe whenever.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-mobile-alt"></i></span>
+                        <span class="logo-text">GizmoHub</span>
+                    </a>
+                    <p>Your destination for premium tech and accessories.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="shop.html">Smartphones</a></li>
+                        <li><a href="shop.html">Accessories</a></li>
+                        <li><a href="shop.html">Audio</a></li>
+                        <li><a href="shop.html">Wearables</a></li>
+                        <li><a href="shop.html">Power</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Avenue, San Francisco, CA</p>
+                    <p><i class="fas fa-phone"></i> 1-800-123-4567</p>
+                    <p><i class="fas fa-envelope"></i> support@gizmohub.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM PST</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 GizmoHub. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="shop.js"></script>
+    <script src="components.js"></script>
+    <script src="quick-view.js"></script>
+    <script src="cart-drawer.js"></script>
+    <script src="ui-enhancements.js"></script>
+    <script src="mobile-menu.js"></script>
+    <script src="newsletter.js"></script>
+<script src="cookie-consent.js"></script>
+<script src="recently-viewed.js"></script>
+<script src="toast-notifications.js"></script>
+</body>
+</html>

@@ -38,3 +38,7 @@ skills-lock.json
 # OS
 .DS_Store
 .directory
+
+.vercel
+deploy.bat
+deploy.sh

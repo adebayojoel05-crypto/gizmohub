@@ -145,8 +145,11 @@ function createProductCard(product) {
                     <i class="far fa-heart"></i>
                 </button>
                 <div class="product-quick-actions">
-                    <button class="quick-btn" aria-label="Quick view">
+                    <button class="quick-btn" aria-label="Quick view" data-product-id="${product.id}">
                         <i class="fas fa-eye"></i>
+                    </button>
+                    <button class="compare-btn" aria-label="Add to compare" data-product-id="${product.id}">
+                        <i class="fas fa-balance-scale"></i>
                     </button>
                 </div>
                 <div class="product-hover-info">

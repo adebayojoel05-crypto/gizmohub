@@ -15,7 +15,12 @@ const products = [
         reviews: 458,
         image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&q=80",
         badge: "bestseller",
-        isNew: false
+        isNew: false,
+        display: "6.7\" Super Retina XDR",
+        processor: "A17 Pro Chip",
+        camera: "48MP + 12MP + 12MP",
+        battery: "4,422 mAh",
+        storage: "256GB / 512GB / 1TB"
     },
     {
         id: 2,
@@ -24,12 +29,17 @@ const products = [
         price: 1099,
         originalPrice: 1299,
         discount: 15,
-        description: "The ultimate Galaxy flagship with built-in S Pen, 200MP main camera, Snapdragon 8 Gen 3, and Galaxy AI for intelligent photo editing.",
+        description: "The ultimate Samsung flagship with Snapdragon 8 Gen 3, 6.8\" Dynamic AMOLED 2X display, built-in S Pen, and 200MP camera system.",
         rating: 4.8,
-        reviews: 342,
+        reviews: 392,
         image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&q=80",
         badge: "new",
-        isNew: true
+        isNew: true,
+        display: "6.8\" Dynamic AMOLED 2X",
+        processor: "Snapdragon 8 Gen 3",
+        camera: "200MP + 50MP + 12MP + 10MP",
+        battery: "5,000 mAh",
+        storage: "256GB / 512GB / 1TB"
     },
     {
         id: 3,
@@ -38,12 +48,17 @@ const products = [
         price: 899,
         originalPrice: 999,
         discount: 10,
-        description: "AI-powered smartphone with Tensor G3 chip, advanced computational photography, 6.7\" LTPO OLED display, and 7 years of OS updates.",
+        description: "Google's computational photography powerhouse with Tensor G3 chip, 6.7\" LTPO display, and best-in-class AI features.",
         rating: 4.7,
-        reviews: 256,
+        reviews: 267,
         image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=80",
-        badge: null,
-        isNew: false
+        badge: "sale",
+        isNew: false,
+        display: "6.7\" LTPO OLED",
+        processor: "Google Tensor G3",
+        camera: "50MP + 48MP + 48MP",
+        battery: "5,050 mAh",
+        storage: "128GB / 256GB / 512GB"
     },
     {
         id: 4,
@@ -57,7 +72,12 @@ const products = [
         reviews: 867,
         image: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&q=80",
         badge: "bestseller",
-        isNew: false
+        isNew: false,
+        display: "N/A",
+        processor: "H2 Chip",
+        camera: "N/A",
+        battery: "6 hours (+30h case)",
+        storage: "N/A"
     },
     {
         id: 5,
